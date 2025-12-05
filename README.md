@@ -10,9 +10,9 @@
 Python 3.10
 
 ### 必要套件
-pip install ultralytics
-pip install opencv-python
-pip install numpy
+- pip install ultralytics
+- pip install opencv-python
+- pip install numpy
 
 
 程式會自動：
