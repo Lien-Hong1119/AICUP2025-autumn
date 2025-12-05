@@ -1,0 +1,6 @@
+path: D:\datasets\AICUP2025\second_stage\datasets
+train: D:\datasets\AICUP2025\second_stage\datasets\train\images
+val: D:\datasets\AICUP2025\second_stage\datasets\val\images
+nc: 1
+names:
+- aortic_valve

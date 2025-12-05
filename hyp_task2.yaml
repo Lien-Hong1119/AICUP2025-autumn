@@ -1,0 +1,30 @@
+# ----- augmentation (medical-friendly) -----
+hsv_h: 0
+hsv_s: 0
+hsv_v: 0
+flipud: 0.0
+fliplr: 0.5
+degrees: 5.0
+scale: 0.2
+shear: 0.0
+mosaic: 0.1
+mixup: 0.02
+
+# ----- optimizer & lr -----
+optimizer: AdamW
+lr0: 0.0015
+lrf: 0.1
+cos_lr: True
+weight_decay: 0.0005
+momentum: 0.937
+amp: True
+warmup_epochs: 5.0
+
+# ----- loss weights -----
+box: 8
+cls: 1
+dfl: 1.0
+
+# ----- misc -----
+seed: 42
+workers: 0
